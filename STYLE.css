@@ -1,0 +1,23 @@
+.div {
+    background-color: teal;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 50px;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.sC {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.id-display {
+    display: none;
+}
+
+.boxes:hover .id-display {
+    color: coral;
+    display: block;
+}
